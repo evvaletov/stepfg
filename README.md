@@ -1,18 +1,17 @@
-----------------------------------------------------
-                STEP File Generator
-              E. Valetov and M. Berz
-             Michigan State University
-                Created 03-Feb-2017
-              Email: valetove@msu.edu
-----------------------------------------------------
 
-0. Introduction
+# stepfg: STEP File Generator                
+Authors: E. Valetov and M. Berz
+Organization: Michigan State University
+Creation date: 03-Feb-2017
+Email: valetove@msu.edu
+
+## 0. Introduction
 
 This program converts a list of polygons in the x-y plane specified by
 vertices into a STEP file containing a 3D part obtained by extrusion of
 interiors regions of these polygons along the z-axis.
 
-1. Repository contents
+## 1. Repository contents
 
     README.md           This file
     LICENSE.md          Copyright notice
@@ -20,7 +19,7 @@ interiors regions of these polygons along the z-axis.
     part_geometry.txt   Sample input file
                         (Muon g-2 Collaboration quadrupole)
 
-2. Command-line arguments
+## 2. Command-line arguments
 
 stepfg [filename_in [filename_out]] [-h] [/h]
     filename_in    Input file containing 2D geometry data
@@ -29,7 +28,7 @@ stepfg [filename_in [filename_out]] [-h] [/h]
                    (default: "part_out.stp")
     -h or /h       Help information
 
-3. Input file format
+## 3. Input file format
 
 The input file format is three parameters as follows:
 
@@ -49,3 +48,6 @@ Third_argument: Geometric proportionality coefficient. The output unit of
 
 A sample input file, "part_geometry.txt" containing a representation of the
 Muon g-2 Collaboration quadrupole, is supplied with this program.
+
+## 5. License
+© 2017 Eremey Valetov and Martin Berz
