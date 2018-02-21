@@ -13,10 +13,10 @@ interiors regions of these polygons along the z-axis.
 
 ## 1. Repository contents
 
-(README.md) This file
-(LICENSE.md) Copyright notice
-(stepfg.py) Python source code
-(part_geometry.txt) Sample input file (Muon g-2 Collaboration quadrupole)
+[README.md](README.md) This file  
+[LICENSE.md](LICENSE.md) Copyright notice  
+[stepfg.py](stepfg.py) Python source code  
+[part_geometry.txt](part_geometry.txt) Sample input file (Muon g-2 Collaboration quadrupole)
 
 ## 2. Command-line arguments
 
