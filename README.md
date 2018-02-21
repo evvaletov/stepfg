@@ -20,20 +20,18 @@ interiors regions of these polygons along the z-axis.
 
 ## 2. Command-line arguments
 
-stepfg [filename_in [filename_out]] [-h] [/h]  
-    filename_in    Input file containing 2D geometry data  
-                   (default: "part_geometry.txt")  
-    filename_out   Output STEP file with resulting 3D part  
-                   (default: "part_out.stp")  
-    -h or /h       Help information  
+    stepfg [filename_in [filename_out]] [-h] [/h]  
+filename_in    Input file containing 2D geometry data (default: "part_geometry.txt")  
+filename_out   Output STEP file with resulting 3D part (default: "part_out.stp")  
+-h or /h       Help information  
 
 ## 3. Input file format
 
 The input file format is three parameters as follows:
 
-[First_argument,
-Second_argument,
-Third_argument]
+    [First_argument,
+    Second_argument,
+    Third_argument]
 
 First_argument: List of polygon specifications [pol1,pol2,...,poln]. Each
     polygon specification is a sequential list [vert1,vert2,...,vertm] of the
