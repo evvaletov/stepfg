@@ -21,9 +21,9 @@ interiors regions of these polygons along the z-axis.
 ## 2. Command-line arguments
 
     stepfg [filename_in [filename_out]] [-h] [/h]  
-filename_in    Input file containing 2D geometry data (default: "part_geometry.txt")  
-filename_out   Output STEP file with resulting 3D part (default: "part_out.stp")  
--h or /h       Help information  
+filename_in:    Input file containing 2D geometry data (default: "part_geometry.txt")  
+filename_out:   Output STEP file with resulting 3D part (default: "part_out.stp")  
+-h or /h:       Help information  
 
 ## 3. Input file format
 
