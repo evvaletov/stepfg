@@ -1,8 +1,8 @@
 #!/usr/bin/python
 helpstr = '''
 This program converts a list of polygons in the x-y plane specified by
-vertices into a STEP file containing a 3D part obtained by extrusion of
-interiors regions of these polygons along the z-axis.
+vertices into a STEP file containing a 3D part obtained by extrusion of the
+interior regions of these polygons along the z axis.
 
 stepfg [filename_in [filename_out]] [-h] [/h]
     filename_in    Input file containing 2D geometry data
@@ -21,14 +21,14 @@ First_argument: List of polygon specifications [pol1,pol2,...,poln]. Each
     polygon specification is a sequential list [vert1,vert2,...,vertm] of the
     polygon's vertices in the x-y plane. Each vertex is specified as a list
     [x,y] or [x,y,0].
-Second_argument: z-coordinate interval [z1, z2] that the resulting 3D part
+Second_argument: z coordinate interval [z1, z2] that the resulting 3D part
     should span.
 Third_argument: Geometric proportionality coefficient. The output unit of
     length in the STEP file is mm, so use 10 if the 2D geometry is specified
     in cm.
 
 A sample input file, "part_geometry.txt" containing a representation of the
-Muon g-2 Collaboration quadrupole, is supplied with this program.
+Muon g-2 collaboration quadrupole, is supplied with this program.
 '''
 
 __author__ = "E. Valetov and M. Berz"
