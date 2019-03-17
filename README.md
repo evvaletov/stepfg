@@ -8,8 +8,10 @@ Email: valetove@msu.edu
 ## 0. Introduction
 
 This program converts a list of polygons in the x-y plane specified by
-vertices into a STEP file containing a 3D part obtained by extrusion of
+vertices into a STEP\* file containing a 3D part obtained by extrusion of
 interiors regions of these polygons along the z-axis.
+
+\* STEP is an abbreviation for STandard for the Exchange of Product model data – ISO 10303-242.
 
 ## 1. Repository contents
 
