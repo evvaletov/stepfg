@@ -11,6 +11,8 @@ def normalize(vector_in):
     if len(vector_in) != 3:
         raise ValueError("normalize: coordinates must be 3D")
     magnitude = math.sqrt(sum(i ** 2 for i in vector_in))
+    if magnitude == 0:  # in some cases vector_in has zeros only
+        return [0 for _ in vector_in]
     return [x / magnitude for x in vector_in]
 
 
